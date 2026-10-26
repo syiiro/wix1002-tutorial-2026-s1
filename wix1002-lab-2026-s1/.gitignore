@@ -1,0 +1,19 @@
+# Compiled Java and generated build output
+*.class
+**/bin/
+**/out/
+**/build/
+**/dist/
+**/target/
+.gradle/
+
+# Local IDE/workspace state (keep shared project configuration)
+.metadata/
+**/nbproject/private/
+.vscode/
+.idea/
+*.iml
+
+# Operating system files
+.DS_Store
+Thumbs.db
