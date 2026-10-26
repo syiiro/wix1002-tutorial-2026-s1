@@ -92,7 +92,7 @@ switch (num) {
   case 7:
     System.out.println("Saturday");
     break;
-  default;
+  default:
     System.out.println("Invalid input!");
 }
 ```
