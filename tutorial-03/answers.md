@@ -136,6 +136,19 @@ else{
 
 ### a)
 
+### Question
+
+```java
+if (x < 10)  
+if (y > 10) 
+System.out.println("*****"); 
+else 
+System.out.println("#####"); 
+System.out.println("$$$$$"); 
+```
+
+### Output:
+
 ```java
 #####
 $$$$$
@@ -144,6 +157,20 @@ $$$$$
 First, it checks the x < 10 condition and its true as x = 9. Then it checks for y > 10 condition, but as y is equal to 10, it will run the else command and exit the if y > 10. Finally, it will print the $$$$$ as it is a separate command that isnt bound to any loop.
 
 ### b)
+
+### Question
+
+```java
+if (x < 10) { 
+if (y < 10)  
+System.out.println("*****"); 
+else{ 
+System.out.println("#####"); 
+System.out.println("$$$$$");  
+}} 
+```
+
+### Output:
 
 ```java
 #####
@@ -154,6 +181,21 @@ Just like question 1, it checks every if loop condition but this time condition 
 
 ### c)
 
+### Question
+
+```java
+if (x < 10) { 
+if (y < 10) 
+System.out.println("*****"); 
+System.out.println("#####"); 
+} 
+else { 
+System.out.println("$$$$$");  
+}
+```
+
+### Output:
+
 ```java
 #####
 ```
@@ -161,6 +203,20 @@ Just like question 1, it checks every if loop condition but this time condition 
 This time the line System.out.println("#####") sits under the if (x < 10) loop as there is no curly bracket after if (y < 10) loop to control the line after it.
 
 ### d)
+
+### Question
+
+```java
+if (x > 10) { 
+if (y > 10) { 
+System.out.println("*****"); 
+System.out.println("#####"); } 
+else  
+System.out.println("$$$$$"); 
+}
+```
+
+### Output:
 
 ```java
   
